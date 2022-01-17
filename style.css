@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,400&family=Open+Sans:wght@600&family=Roboto:wght@700&family=Rubik:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+}
+nav{
+    background: rgb(238, 80, 80);
+    /* overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0; */
+   
+}
+.shadow{
+    box-shadow: #c0392b 0px 1px 2px 0px
+}
+.navbar-brand{
+    color: #fff !important;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 5rem;
+}
+.nav-item{
+    padding: 2rem;
+}
+.nav-item .nav-link{
+    color: #fff !important;
+    font-weight: bolder;
+   
+
+}
+.aagam-landing-section{
+    background: rgb(238, 80, 80);
+    min-width: 100%;
+    height: 100vh;
+    padding-top: 6rem;
+}
+.aagam-landing-text{
+    color: #fff;
+    padding-left: 5rem;
+   
+}
+.aagam-landing-text h1{
+    font-size: 4rem;
+}
+.aagam-landing-section button{
+    background: #2c3e50;
+    color: #fff;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+.aagam-landing-section button:hover{
+    background: #dff9fb;
+    color: #000;
+
+}
+@media (max-width:768px) {
+    .aagam-landing-section{
+        padding-top: 0;
+    }
+    .aagam-landing-text h1{
+        font-size: 2rem;
+    }
+    .aagam-landing-section img{
+        padding-bottom: 2rem;
+        width: 200px;
+    }
+    .aagam-landing-section button{
+        padding: 0.5rem;
+    }
+    .navbar-brand{
+        padding-left: 2rem;
+    }
+    
+}
