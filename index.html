@@ -17,9 +17,27 @@
     <link rel="stylesheet" href="style.css">
 
     <title>spiffy</title>
+    <style>
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 2.8rem;
+            border: none;
+            outline: none;
+            /* background: #130f40; */
+            color: #130f40;;
+            cursor: pointer;
+            padding: 15px;
+            /* border-radius: 50%; */
+        }
+    </style>
 </head>
 
 <body>
+    <a onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-circle-up"></i></a>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">spiffy</a>
@@ -37,7 +55,7 @@
                         <a class="nav-link" href="#">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" id="contact" href="#">Contact</a>
                     </li>
 
 
@@ -50,7 +68,7 @@
 
     <section name="Landing" class="aagam-landing-section pb-0">
         <div class="row container">
-            <div class="col-lg-6 col-md-12 justify-content-center align-items-center pb-0"  data-aos="flip-up">
+            <div class="col-lg-6 col-md-12 justify-content-center align-items-center pb-0" data-aos="flip-up">
                 <div class="my-5 py-5 aagam-landing-text">
                     <h1 class="dinot-haeding">Build your <br>
                         Brand Identity
@@ -63,7 +81,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0 padding-none-m"
-            data-aos="flip-down">
+                data-aos="flip-down">
                 <img class="landing-image" src="/image/landingImage.png" width="500">
             </div>
 
@@ -127,12 +145,11 @@
     </section>
     <section id="section3" name="Landing" class="aagam-landing-section pb-0">
         <div class="row container">
-            <div  data-aos="zoom-in-right"
+            <div data-aos="zoom-in-right"
                 class="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0 padding-none-m">
                 <img class="landing-image" src="/image/landingImage5.png" width="500">
             </div>
-            <div  data-aos="zoom-in-left"
-                class="col-lg-6 col-md-12 justify-content-center align-items-center pb-0">
+            <div data-aos="zoom-in-left" class="col-lg-6 col-md-12 justify-content-center align-items-center pb-0">
                 <div class="my-5 py-5 aagam-landing-text">
                     <h1 class="dinot-haeding">Let's give your sports <br>
                         car an engine.
@@ -153,8 +170,7 @@
     <section id="section4" name="Landing" class="aagam-landing-section pb-0">
         <div class="row container">
 
-            <div data-aos="zoom-out-up"
-                class="col-lg-6 col-md-12 justify-content-center align-items-center pb-0">
+            <div data-aos="zoom-out-up" class="col-lg-6 col-md-12 justify-content-center align-items-center pb-0">
                 <div class="my-5 py-5 aagam-landing-text">
                     <h1 class="dinot-haeding">Good designs are <br>
                         obvious.
@@ -182,8 +198,7 @@
                 class="col-lg-6 col-md-12 justify-content-center align-items-center p-5 pb-0 padding-none-m">
                 <img class="landing-image" src="/image/landingImage7.png" width="500">
             </div>
-            <div data-aos="zoom-in-up"
-                class="col-lg-6 col-md-12 justify-content-center align-items-center pb-0">
+            <div data-aos="zoom-in-up" class="col-lg-6 col-md-12 justify-content-center align-items-center pb-0">
                 <div class="my-5 py-5 aagam-landing-text">
                     <h1 class="dinot-haeding">Time to boost your <br>
                         business.
@@ -199,7 +214,7 @@
 
 
     </section>
-    <section class="lastSection">
+    <section class="lastSection" id="contactUs">
         <h1 class="text-center py-4">Reach Us!</h1>
         <div class="container">
             <form>
