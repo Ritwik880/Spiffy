@@ -8,6 +8,7 @@
 }
 html{
     scroll-behavior: smooth;
+    /* font-size: 62.5%; */
 }
 body{ height:100vh; margin:0; }
 
@@ -92,7 +93,9 @@ nav{
     border-radius: 3px;
     transition: all 0.5s;
     text-transform: uppercase;
+    /* animation: mymove 3s infinite */
 }
+
 .aagam-landing-section button:hover{
     background: #dff9fb;
     color: #000;
