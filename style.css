@@ -3,9 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
    
 }
+body{ height:100vh; margin:0; }
 nav{
     background: rgb(238, 80, 80);
     /* overflow: hidden;
@@ -30,6 +31,37 @@ nav{
     color: #fff !important;
     font-weight: bolder;
    
+
+}
+#course{
+    color: #fff;
+    min-height: 570px !important;
+    background-image: linear-gradient(rgba(9,5,54,0.3), rgba(5,4,46,0.7)), url('./image/courses.jpg');
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#course p{
+    font-size: 2rem;
+    width: 50%;
+    text-align: center;
+    padding-top: 2rem;
+}
+#course button{
+    background: #f1c40f;
+    color: #000;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+#course button:hover{
+    background: #dff9fb;
+    color: #000;
 
 }
 .aagam-landing-section{
@@ -78,4 +110,53 @@ nav{
         padding-left: 2rem;
     }
     
+}
+.lastSection{
+    min-height: 500px;
+    background: #000;
+    
+}
+.lastSection h1{
+    color: #fff;
+}
+.lastSection .container{
+    width: 50%;
+
+}
+.container form{
+    width: 70%;
+    margin: auto;
+}
+input[type="text"],input[type="email"] {
+    color: #fff;
+    background-color : #000; 
+    padding: 1rem;
+    border-radius: 10px;
+  
+  }
+textarea{
+    background: #000 !important;
+    border-radius: 10px !important;
+}
+form .contactButton{
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    width: 30%;
+    
+}
+footer{
+    margin-top:auto; 
+    background: #000;
+    width: 100%;
+}
+footer p{
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
